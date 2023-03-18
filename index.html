@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="Img/enemy1.png" type="image/icon type">
+    <title>Space Invasion</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="fixed flex inset-0 items-center justify-center" style="top: 20%;" id="startScreen">
+    <div class="bg-gray max-w-xs w-full p-6 text-center">
+      <h1 class="text-4xl font-bold leading-none mb-5" id="title">Alien Invasion</h1>
+      <p class="text-sm mb-4" id="score" style="display: none;"></p>
+      <p class="text-sm mb-4" id="lvl">Level: 1</p>
+      <div>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 rounded-full text-sm" id="startBtn">Start Game</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 rounded-full text-sm" id="lvlSelectBtn">Level Selector</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="lvl1">Level 1</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="lvl2">Level 2</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="lvl3">Level 3</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="lvl4">Level 4</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="lvl5">Level 5</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="lvl6">Level 6</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 text-sm" style="display: none;" id="back">Back</button>
+        <button class="bg-red-500 text-white w-full py-3 mb-3 rounded-full text-sm" style="display: block;" onclick = "location.href = 'http://127.0.0.1:5500/Stats.html'">Highscores</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="../p5.js"></script>
+  <script src="../p5.sound.js"></script>
+  <script src="Sketch.js"></script>
+  <script src="player.js"></script>
+  <script src="enemy.js"></script>
+  <script src="Bullet.js"></script>
+  <script src="particles.js"></script>
+  <script src="stats.js"></script>
+  
+</body>
+</html>
