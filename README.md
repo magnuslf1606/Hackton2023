@@ -1,2 +1,3 @@
-# Hackton2023
-2. plass i Hackton 2023 Bø - MidtTelemark
+# Hackton2023Bø - MidtTelemark
+1. plass for mitt trinn
+2. plass for alle trinnene 
