@@ -7,6 +7,7 @@ Space Invaders er et japansk skytevideospill utgitt i 1978 av Taito. Det er en a
 - Velg "play" eller "select level"
 - Bruker piltastene eller (WASD) for å bevege deg
 - Drep alle aliens for du går tom for dine 3 liv
+- Se liste over dine beste runder (highscore)
 
 ## Laget av
 Magnus Løiten Fjeldberg
